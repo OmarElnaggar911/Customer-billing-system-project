@@ -1,0 +1,31 @@
+Customer Billing Management System
+
+A desktop-based Java application for managing customer billing data using a local SQLite database. Built with Java Swing for the user interface and designed for small business or personal use.
+
+Features
+	•	Add, edit, delete, and search for customer records
+	•	Tabbed interface with user-friendly design
+	•	SQLite database integration
+	•	Automatic database and table creation on first run
+	•	Persisted data across sessions
+	•	Simple and intuitive layout using Java Swing
+
+Technologies Used
+	•	Java SE
+	•	Swing (for GUI)
+	•	SQLite (via JDBC)
+	•	NetBeans IDE (development)
+
+How It Works
+	1.	Launch Application: Run the project from NetBeans.
+	2.	JVM Initialization: JVM loads classes and SQLite JDBC driver.
+	3.	Main Execution: Main UI (MainFrame) is launched on the Event Dispatch Thread.
+	4.	Database Setup: Application checks for database directory and table; creates them if they don’t exist.
+	5.	UI Initialization: The interface is built with tabs for form entry, listing, and searching.
+	6.	User Interaction: Customers can be managed through various UI components with instant updates.
+
+Getting Started
+	1.	Clone or download the project.
+	2.	Open with NetBeans or your preferred IDE.
+	3.	Make sure you have Java and SQLite JDBC driver configured.
+	4.	Press Run to launch the application.
